@@ -1,0 +1,21 @@
+
+#para1{
+    
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    /* font-weight: 700; */
+
+    text-align: justify;
+    /* text-align: center; */
+
+    line-height: 40px;
+    word-spacing: 5px;
+
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-shadow: 3px 3px 2px black;
+}
