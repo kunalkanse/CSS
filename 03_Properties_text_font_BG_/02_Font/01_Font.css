@@ -1,0 +1,17 @@
+h1{
+    font-size: 100px;
+    font-family: 'Handjet', cursive;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    
+}
+
+p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+    font-style:italic;
+
+    line-height: 30px;
+}
