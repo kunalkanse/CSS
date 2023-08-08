@@ -1,0 +1,20 @@
+
+a:visited
+{
+    color: orchid;
+}
+
+a:link{
+    color: brown;
+}
+
+a:active
+{
+    color: black;
+}
+
+img:hover
+{
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px black;
+}
