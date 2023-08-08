@@ -1,0 +1,31 @@
+p:first-child
+{
+    color: red;
+}
+
+p:first-of-type
+{
+    color: green;
+    background-color: black;
+}
+
+
+p:last-child
+{
+    color: yellow;
+}
+
+p:last-of-type
+{
+    color: skyblue;
+}
+
+p:nth-child(even)
+{
+    color: red;
+}
+
+p:nth-child(odd)
+{
+    color: blue;
+}
