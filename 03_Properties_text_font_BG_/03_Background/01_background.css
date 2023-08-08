@@ -1,0 +1,43 @@
+
+/* #div1{
+    background: black;
+    height: 90vh;
+} */
+
+
+/* #div1{
+    height: 90vh;
+    background: linear-gradient(to left,red,blue,purple);
+} */
+
+/* #div1{
+    height: 90vh;
+    background: radial-gradient(red,blue,purple);
+
+} */
+
+#div1{
+
+    height: 200vh;
+    width: 100vw;
+
+    background: url("https://cdn.pixabay.com/photo/2023/06/27/10/51/man-8091933_1280.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    /* background-size: 600px 300px; */
+    background-position: center;
+
+    background-attachment: fixed;
+
+    filter: blur(2px);
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+p{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+
+    margin: 20px;
+}
