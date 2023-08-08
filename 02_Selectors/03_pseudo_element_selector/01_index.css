@@ -1,0 +1,30 @@
+
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 100px;
+    color: blue;
+}
+
+p::before{
+    content: url("https://images.news18.com/ibnlive/uploads/2022/07/allu-arjun-1.jpg");
+}
+
+p::after{
+    content: url("https://e0.pxfuel.com/wallpapers/673/688/desktop-wallpaper-allu-arjun-pushpa-allu-arjun-jiteshpatre-jitesh-patre-jitesh-alluarjun-pushpa-aa20-sukumar-allu-arjun-allu-arjun-hairstyle-allu-arjun-thumbnail.jpg");
+}
+
+p::selection{
+    background-color: black;
+    color: red;
+}
+
+li::marker{
+    content: '❤️';
+}
+
+li::after{
+    content: '⭐';
+}
