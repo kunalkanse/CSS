@@ -1,0 +1,14 @@
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    /* background-color: #393a7b; */ 
+    /* background-color: rgb(209, 78, 38); */
+    /* background-color: rgb(100, 45, 32, 0.6); */
+    /* Opacity value is from 0 to 1 */
+    /* background-color: hsl(240, 89%, 53%); */
+
+
+}
