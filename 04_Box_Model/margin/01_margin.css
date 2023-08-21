@@ -1,0 +1,36 @@
+
+
+/* Margin means space around the element */
+/* Horizontal margins are Add up */
+/* vertical margins are not Add up */
+
+
+#outer-div1
+{
+    height: 200px;
+    width: 200px;
+    background: #393a7b;
+
+    /* margin: 5px; */
+
+    margin: 5px 10px 20px;  /* T RL B*/
+    margin: 5px 10px 20px 10px; /* T R B L*/
+}
+
+#inner-div1{
+    height: 50%;
+    width: 50%;
+    background: cyan;
+
+    margin-left: 20px;
+    
+}
+
+#outer-div2{
+    height: 200px;
+    width: 200px;
+    background: orange;
+
+    /*center*/
+    /* margin: auto; */ 
+}
