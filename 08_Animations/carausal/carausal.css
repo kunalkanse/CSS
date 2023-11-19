@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 0.6em;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container-img{
+    width: 60vw;
+    height: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 1rem black;
+
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/08/19/28/sea-8375657_1280.jpg");
+
+    background-size: cover;
+
+    animation: gallary 20s linear infinite;
+}
+
+@keyframes gallary{
+    0%{
+        background-image: url("https://cdn.pixabay.com/photo/2023/11/08/19/28/sea-8375657_1280.jpg");
+    }
+    20%{
+        background-image: url("https://cdn.pixabay.com/photo/2023/11/12/13/24/tide-8382992_1280.jpghttps://cdn.pixabay.com/photo/2023/11/12/13/24/tide-8382992_1280.jpg");
+    }
+    40%{
+        background-image: url("https://cdn.pixabay.com/photo/2023/11/15/16/21/winter-landscape-8390429_1280.jpg");
+    }
+    60%{
+        background-image: url("https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg");
+    }
+    80%{
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg");
+    }
+    100%{
+        background-image: url("https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_1280.jpg");
+    }
+}
