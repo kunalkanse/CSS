@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/731082/pexels-photo-731082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.rain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Raining-PNG.png")  ;
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    animation: raining 0.5s linear infinite;
+}
+
+@keyframes raining{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: -10% 100%;
+    }
+}
