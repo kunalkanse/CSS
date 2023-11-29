@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #191825;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-size: 150px;
+    text-align: center;
+
+    text-shadow: -10px 15px 5px rgba(249 , 141 , 141, 0.2);
+    background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+
+    animation: floating 1s linear infinite alternate;
+}
+
+@keyframes floating {
+    0%{
+        rotate: 10deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+}
