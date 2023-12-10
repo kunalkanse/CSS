@@ -1,0 +1,79 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #191825;
+}
+
+.universe{
+    width: 35vw;
+    aspect-ratio: 1;
+    background-color: #ffbb5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: lightToDark 10s ease-in-out infinite;
+}
+
+@keyframes lightToDark {
+    0%{
+        background-color: #ffbb5c;
+    }
+    25%{
+        background-color: #a8772e;
+    }
+    50%{
+        background-color: #000;
+    }
+    75%{
+        background-color: #a8772e;
+    }
+    100%{
+        background-color: #ffbb5c;
+    }
+}
+
+.sun
+{
+    width: 15vw;
+    aspect-ratio: 1;
+    background-color: #e25e36;
+    border-radius: 50%;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.sun::after{
+    content:"";
+    width: inherit;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #000;
+
+    position: absolute;
+
+    animation: lunar 10s ease-in-out infinite;
+}
+
+@keyframes lunar {
+    0%{
+        translate: 100%;
+    }
+    50%{
+        translate: 0;
+        scale: 0.98;
+    }
+    100%{
+        translate: -100%;
+    }
+}
